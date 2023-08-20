@@ -34,7 +34,7 @@ const AllRoutes = ({ slideIn, handleSlideIn }) => {
         element={<Tags slideIn={slideIn} handleSlideIn={handleSlideIn} />}
       />
       <Route
-        path="/Users"
+        path="/User"
         element={<Users slideIn={slideIn} handleSlideIn={handleSlideIn} />}
       />
       <Route
